@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "174443610463",
+    "firebase_url": "https://giuakiltdd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "giuakiltdd",
+    "storage_bucket": "giuakiltdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174443610463:android:49ddc0a68ba0f6e77536ea",
+        "android_client_info": {
+          "package_name": "com.example.hothiphuocan_22iteb001"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD98t_Cbs-pDPHUPw_tJdLFXdtYO751-G8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

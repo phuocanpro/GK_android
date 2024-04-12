@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_liner"
+    tools:context=".EquationFragment"
+   >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="43dp"
+        android:text="PHƯƠNG TRÌNH BẬC 1"
+        android:textColor="#1D8720"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="137dp"
+        android:text="Nhập a"
+        android:textStyle="bold"
+        android:textColor="#118015"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edit_a"
+        android:layout_width="255dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="-2dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Mời nhập a"
+        android:inputType="text"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="224dp"
+        android:text="Nhập b"
+        android:textStyle="bold"
+        android:textColor="#118015"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edit_b"
+        android:layout_width="257dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="-1dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Mời nhập b"
+        android:inputType="text"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="99dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="307dp"
+        android:text="Kết quả"
+        android:textStyle="bold"
+        android:textColor="#118015"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edit_result"
+        android:layout_width="261dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="281dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nghiem"
+        android:layout_width="165dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="237dp"
+        android:background="@drawable/layout_btn"
+        android:text="Nghiệm"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>
